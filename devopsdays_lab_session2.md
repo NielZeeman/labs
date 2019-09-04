@@ -5,7 +5,7 @@ These are labs overviews to get started with [Azure DevOps Services](https://azu
 ## Setting up an Azure DevOps environment
 In this section, we will configure a new Azure DevOps Service organisation, and setup sample source code used in the next tasks.
 
-If you attended [Lab 1](./devopsdays_lab_session1.md), you can continue on at [Creating a continuous delivery pipeline to automatically deploy changes to Azure](#creatingcipipeline)
+If you attended [Lab 1](./devopsdays_lab_session1.md), you can continue on at [Creating a continuous delivery pipeline to automatically deploy changes to Azure](#-creating-a-continuous-delivery-pipeline-to-automatically-deploy-changes-to-azure)
 
 1. If you do not already have an account, create a free [Azure account](https://azure.microsoft.com/en-us/free/). We will use this to deploy applications and sites to.
 
@@ -15,6 +15,6 @@ If you attended [Lab 1](./devopsdays_lab_session1.md), you can continue on at [C
 **`NOTE:`** you are not required to perform "Task 2: Configuring the Parts Unlimited solution in Visual Studio"
 
   
-## <a name="creatingcipipeline" ></a> Creating a continuous delivery pipeline to automatically deploy changes to Azure ##
+## Creating a continuous delivery pipeline to automatically deploy changes to Azure ##
 
 In this section, we will create a new continuous deploymeny (CD) pipeline that will contniously and automatically deploy changes to Azure by following these [steps](https://www.azuredevopslabs.com/labs/azuredevops/continuousdeployment/).
