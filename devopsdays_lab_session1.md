@@ -10,11 +10,13 @@ In this section, we will configure a new Azure DevOps Service organisation, and 
 1. If you do not already have a Azure DevOps organisation setup, create a free [Azure DevOps Services](https://go.microsoft.com/fwlink/?LinkId=2014881&campaign=acom~azure~devops~services~main~hero&githubsi=true&clcid=0x409&WebUserId=1C8EEE140888618B2D45E3DF09CC60C9) account.
 
 1. Create a demo application using the demo generator following these [steps](https://www.azuredevopslabs.com/labs/azuredevops/prereq/). <br/>
-**NOTE** you are not required to perform "Task 2: Configuring the Parts Unlimited solution in Visual Studio"
+**`NOTE:`** you are not required to perform "Task 2: Configuring the Parts Unlimited solution in Visual Studio"
    
 ## Setting up a continuous integration build to verify changes and perform tests ##
 
 In this section, we will create a new continuous integration build by following these [steps](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/).
+
+**`ALTERNATE:`** If you prefer to create a `yaml` build definition instead, follow these [steps](https://www.azuredevopslabs.com/labs/azuredevops/yaml/) up to the end of **"Task 2"**.
 
 ## Setting policies to govern changes between repository branches
 Now that you have the environment setup and a continuous integration (CI) build. Next we will look at adding some governance to the movement of changes between branches.
@@ -41,7 +43,7 @@ Now that you have the environment setup and a continuous integration (CI) build.
 ![](https://github.com/NielZeeman/labs/raw/master/images/devops_3_gitpolicies.png)
 
 1. Check **"Require a minimum number of reviewers"**, enter 1 in **"Minimum number of reviewers"** and also check **"Requestor can approve their own changes"**.<br/>
-**NOTE:** Under normal circumstances, you would not allow the requestor to approve their own changes, we will only do this for demo purposes 
+**`NOTE:`** Under normal circumstances, you would not allow the requestor to approve their own changes, we will only do this for demo purposes 
 
 1. Click **"Save changes"**.
 
